@@ -1,0 +1,24 @@
+{
+  "name": "floodwatch-bengaluru",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.13.0",
+    "typescript": "~5.8.3",
+    "vite": "~6.3.5",
+    "wrangler": "^4.149.0"
+  },
+  "dependencies": {
+    "@types/leaflet": "^1.9.22",
+    "@types/leaflet.markercluster": "^1.5.6",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3"
+  }
+}

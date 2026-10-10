@@ -1,0 +1,1 @@
+Read and obey /AGENTS.md before doing anything.
